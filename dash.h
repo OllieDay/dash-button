@@ -9,8 +9,8 @@
 #define ETHER_ADDR_LEN 6
 
 struct button {
-    const char *name;
-    const unsigned char addr[ETHER_ADDR_LEN];
+	const char *name;
+	const unsigned char addr[ETHER_ADDR_LEN];
 };
 
 typedef void (*callback)(const struct button *button);
